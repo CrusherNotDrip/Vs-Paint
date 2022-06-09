@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="matrixBG.png">
+	<!-- Created with Adobe Animate version 21.0.1.37179 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="lmao0000" x="0" y="0" width="459" height="421"/>
+	<SubTexture name="lmao0001" x="0" y="0" width="459" height="421"/>
+	<SubTexture name="lmao0002" x="0" y="0" width="459" height="421"/>
+	<SubTexture name="lmao0003" x="459" y="0" width="459" height="421"/>
+	<SubTexture name="lmao0004" x="459" y="0" width="459" height="421"/>
+	<SubTexture name="lmao0005" x="459" y="0" width="459" height="421"/>
+	<SubTexture name="lmao0006" x="918" y="0" width="459" height="421"/>
+	<SubTexture name="lmao0007" x="918" y="0" width="459" height="421"/>
+	<SubTexture name="lmao0008" x="918" y="0" width="459" height="421"/>
+	<SubTexture name="lmao0009" x="1377" y="0" width="459" height="421"/>
+	<SubTexture name="lmao0010" x="1377" y="0" width="459" height="421"/>
+	<SubTexture name="lmao0011" x="1377" y="0" width="459" height="421"/>
+	<SubTexture name="lmao0012" x="0" y="421" width="459" height="421"/>
+	<SubTexture name="lmao0013" x="0" y="421" width="459" height="421"/>
+	<SubTexture name="lmao0014" x="0" y="421" width="459" height="421"/>
+	<SubTexture name="lmao0015" x="459" y="421" width="459" height="421"/>
+	<SubTexture name="lmao0016" x="459" y="421" width="459" height="421"/>
+	<SubTexture name="lmao0017" x="459" y="421" width="459" height="421"/>
+	<SubTexture name="lmao0018" x="918" y="421" width="459" height="421"/>
+	<SubTexture name="lmao0019" x="918" y="421" width="459" height="421"/>
+	<SubTexture name="lmao0020" x="918" y="421" width="459" height="421"/>
+	<SubTexture name="lmao0021" x="1377" y="421" width="459" height="421"/>
+	<SubTexture name="lmao0022" x="1377" y="421" width="459" height="421"/>
+	<SubTexture name="lmao0023" x="1377" y="421" width="459" height="421"/>
+	<SubTexture name="lmao0024" x="0" y="842" width="459" height="421"/>
+	<SubTexture name="lmao0025" x="0" y="842" width="459" height="421"/>
+	<SubTexture name="lmao0026" x="0" y="842" width="459" height="421"/>
+	<SubTexture name="lmao0027" x="459" y="842" width="459" height="421"/>
+	<SubTexture name="lmao0028" x="459" y="842" width="459" height="421"/>
+	<SubTexture name="lmao0029" x="459" y="842" width="459" height="421"/>
+	<SubTexture name="lmao0030" x="918" y="842" width="459" height="421"/>
+	<SubTexture name="lmao0031" x="918" y="842" width="459" height="421"/>
+	<SubTexture name="lmao0032" x="918" y="842" width="459" height="421"/>
+	<SubTexture name="lmao0033" x="0" y="0" width="459" height="421"/>
+</TextureAtlas>

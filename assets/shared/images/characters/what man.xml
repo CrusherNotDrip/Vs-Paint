@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="what man.png">
+	<!-- Created with Adobe Animate version 21.0.1.37179 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="down0000" x="1920" y="0" width="1971" height="704"/>
+	<SubTexture name="idle0000" x="3891" y="0" width="1920" height="1080"/>
+	<SubTexture name="idle0001" x="3891" y="0" width="1920" height="1080"/>
+	<SubTexture name="idle0002" x="5811" y="0" width="1920" height="1016" frameX="0" frameY="-32" frameWidth="1920" frameHeight="1080"/>
+	<SubTexture name="idle0003" x="5811" y="0" width="1920" height="1016" frameX="0" frameY="-32" frameWidth="1920" frameHeight="1080"/>
+	<SubTexture name="idle0004" x="0" y="1849" width="1920" height="1008" frameX="0" frameY="-36" frameWidth="1920" frameHeight="1080"/>
+	<SubTexture name="idle0005" x="0" y="1849" width="1920" height="1008" frameX="0" frameY="-36" frameWidth="1920" frameHeight="1080"/>
+	<SubTexture name="idle0006" x="3891" y="0" width="1920" height="1080"/>
+	<SubTexture name="idle0007" x="3891" y="0" width="1920" height="1080"/>
+	<SubTexture name="idle0008" x="3891" y="0" width="1920" height="1080"/>
+	<SubTexture name="idle0009" x="3891" y="0" width="1920" height="1080"/>
+	<SubTexture name="idle0010" x="3891" y="0" width="1920" height="1080"/>
+	<SubTexture name="idle0011" x="3891" y="0" width="1920" height="1080"/>
+	<SubTexture name="idle0012" x="3891" y="0" width="1920" height="1080"/>
+	<SubTexture name="idle0013" x="3891" y="0" width="1920" height="1080"/>
+	<SubTexture name="left0000" x="1920" y="1849" width="2201" height="1080"/>
+	<SubTexture name="right0000" x="4121" y="1849" width="2137" height="1080"/>
+	<SubTexture name="up0000" x="0" y="0" width="1920" height="1849"/>
+	<SubTexture name="up0000" x="6258" y="1849" width="1920" height="1481"/>
+</TextureAtlas>

@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				106,
+				-221
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "left"
+		},
+		{
+			"offsets": [
+				161,
+				-271
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "down"
+		},
+		{
+			"offsets": [
+				65,
+				-220
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "up"
+		},
+		{
+			"offsets": [
+				54,
+				-220
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "idle"
+		},
+		{
+			"offsets": [
+				46,
+				-217
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "right"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/lil roxA",
+	"position": [
+		230,
+		190
+	],
+	"healthicon": "rox",
+	"flip_x": false,
+	"healthbar_colors": [
+		235,
+		42,
+		206
+	],
+	"camera_position": [
+		30,
+		420
+	],
+	"sing_duration": 6.1,
+	"scale": 0.3
+}

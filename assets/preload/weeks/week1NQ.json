@@ -1,0 +1,49 @@
+{
+	"storyName": "Paint lol",
+	"difficulties": "Normal",
+	"hideFreeplay": false,
+	"weekBackground": "paint",
+	"weekBefore": "tutorial",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"hideStoryMode": false,
+	"songs": [
+		[
+			"for paints sake",
+			"icon-paint",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"noteworthy",
+			"icon-paintmad",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"command",
+			"icon-paintmlg",
+			[
+				146,
+				113,
+				253
+			]
+		]
+	],
+	"weekCharacters": [
+		"",
+		"bf",
+		"gf"
+	],
+	"weekName": "Custom Week"
+}

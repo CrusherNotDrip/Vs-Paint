@@ -1,0 +1,424 @@
+{
+	"song": {
+		"speed": 2.7,
+		"stage": "paint",
+		"player1": "bf",
+		"player2": "lil rox",
+		"player3": null,
+		"events": [
+			[
+				92916.6666666666,
+				[
+					[
+						"Change Character",
+						"dad",
+						"lil roxA"
+					]
+				]
+			],
+			[
+				98666.6666666666,
+				[
+					[
+						"Change Character",
+						"dad",
+						"lil rox"
+					]
+				]
+			],
+			[
+				125333.333333333,
+				[
+					[
+						"Change Character",
+						"dad",
+						"pedo"
+					]
+				]
+			],
+			[
+				133333.333333333,
+				[
+					[
+						"Change Character",
+						"dad",
+						"lil rox"
+					]
+				]
+			],
+			[
+				229333.333333334,
+				[
+					[
+						"Change Character",
+						"dad",
+						"lil rox"
+					],
+					[
+						"Change Character",
+						"bf",
+						"bf"
+					]
+				]
+			],
+			[
+				288000,
+				[
+					[
+						"Change Character",
+						"dad",
+						"bad mod"
+					]
+				]
+			],
+			[
+				293333.333333334,
+				[
+					[
+						"Play Animation",
+						"gun",
+						"bf"
+					]
+				]
+			],
+			[
+				293666.666666667,
+				[
+					[
+						"Change Character",
+						"bf",
+						"bf gun"
+					]
+				]
+			],
+			[
+				294750,
+				[
+					[
+						"Change Character",
+						"dad",
+						"spirit"
+					]
+				]
+			],
+			[
+				298666.666666667,
+				[
+					[
+						"Change Character",
+						"dad",
+						"lil rox"
+					],
+					[
+						"Change Character",
+						"bf",
+						"bf"
+					]
+				]
+			],
+			[
+				357333.333333333,
+				[
+					[
+						"Change Character",
+						"dad",
+						"jake"
+					]
+				]
+			],
+			[
+				378666.666666666,
+				[
+					[
+						"Change Character",
+						"dad",
+						"lil rox"
+					]
+				]
+			],
+			[
+				399999.999999999,
+				[
+					[
+						"Change Character",
+						"dad",
+						"ruv"
+					]
+				]
+			],
+			[
+				431999.999999999,
+				[
+					[
+						"Change Character",
+						"dad",
+						"lil rox"
+					]
+				]
+			],
+			[
+				474666.666666664,
+				[
+					[
+						"Change Character",
+						"dad",
+						"lil roxP"
+					],
+					[
+						"Change Character",
+						"bf",
+						"bf-pixel"
+					],
+					[
+						"Change Character",
+						"gf",
+						"gf-pixel"
+					]
+				]
+			],
+			[
+				527999.999999997,
+				[
+					[
+						"Change Character",
+						"dad",
+						"lil rox"
+					],
+					[
+						"Change Character",
+						"bf",
+						"bf"
+					],
+					[
+						"Change Character",
+						"gf",
+						"gf"
+					]
+				]
+			],
+			[
+				621333.333333333,
+				[
+					[
+						"Hey!",
+						"both",
+						""
+					],
+					[
+						"Change Scroll Speed",
+						"0.5",
+						""
+					]
+				]
+			],
+			[
+				640583.333333334,
+				[
+					[
+						"Hey!",
+						"both",
+						""
+					]
+				]
+			],
+			[
+				649583.333333334,
+				[
+					[
+						"Hey!",
+						"both",
+						""
+					]
+				]
+			],
+			[
+				688000.000000002,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				752000.000000004,
+				[
+					[
+						"Change Character",
+						"dad",
+						"shaggy"
+					],
+					[
+						"Change Character",
+						"bf",
+						"super bf"
+					]
+				]
+			],
+			[
+				789333.333333338,
+				[
+					[
+						"Change Character",
+						"dad",
+						"QT"
+					],
+					[
+						"Change Character",
+						"bf",
+						"bf"
+					]
+				]
+			],
+			[
+				821000.000000006,
+				[
+					[
+						"Change Character",
+						"bf",
+						"bfS"
+					]
+				]
+			],
+			[
+				821250.000000006,
+				[
+					[
+						"Play Animation",
+						"saw",
+						"dad"
+					],
+					[
+						"Play Animation",
+						"bf saw",
+						"bf"
+					]
+				]
+			],
+			[
+				821416.666666672,
+				[
+					[
+						"Change Character",
+						"bf",
+						"bfS2"
+					],
+					[
+						"Change Character",
+						"dad",
+						"lil rox"
+					]
+				]
+			],
+			[
+				842750.000000006,
+				[
+					[
+						"Change Character",
+						"bf",
+						"dad"
+					]
+				]
+			],
+			[
+				864000.000000007,
+				[
+					[
+						"Change Character",
+						"bf",
+						"bf"
+					]
+				]
+			],
+			[
+				869333.33333334,
+				[
+					[
+						"Change Character",
+						"bf",
+						"bf"
+					]
+				]
+			],
+			[
+				912000.000000008,
+				[
+					[
+						"Change Character",
+						"dad",
+						"19"
+					]
+				]
+			],
+			[
+				914666.666666674,
+				[
+					[
+						"Change Character",
+						"bf",
+						"bf"
+					]
+				]
+			],
+			[
+				936000.000000009,
+				[
+					[
+						"Change Character",
+						"dad",
+						"lil rox"
+					]
+				]
+			],
+			[
+				978666.666666677,
+				[
+					[
+						"Change Character",
+						"dad",
+						"tiky"
+					]
+				]
+			],
+			[
+				1013333.33333334,
+				[
+					[
+						"Change Character",
+						"dad",
+						"lil rox"
+					]
+				]
+			],
+			[
+				1088833.33333334,
+				[
+					[
+						"Change Character",
+						"bf",
+						"bfP"
+					]
+				]
+			],
+			[
+				1098666.66666668,
+				[
+					[
+						"Change Character",
+						"bf",
+						"bf"
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": null,
+		"validScore": false,
+		"gfVersion": "gf",
+		"bpm": 180,
+		"arrowSkin": null,
+		"needsVoices": true,
+		"song": "little-rox"
+	}
+}

@@ -1,0 +1,144 @@
+{
+	"song": {
+		"speed": 3.1,
+		"stage": "bedroom",
+		"player1": "seashantypaint",
+		"player2": "birb",
+		"player3": null,
+		"events": [
+			[
+				18600,
+				[
+					[
+						"Play Animation",
+						"angry",
+						"bf"
+					],
+					[
+						"Play Animation",
+						"fly",
+						"dad"
+					]
+				]
+			],
+			[
+				37800,
+				[
+					[
+						"Play Animation",
+						"angry",
+						"bf"
+					],
+					[
+						"Play Animation",
+						"fly",
+						"dad"
+					]
+				]
+			],
+			[
+				57000,
+				[
+					[
+						"Play Animation",
+						"angry",
+						"bf"
+					],
+					[
+						"Play Animation",
+						"fly",
+						"dad"
+					]
+				]
+			],
+			[
+				66600,
+				[
+					[
+						"Play Animation",
+						"fly",
+						"dad"
+					]
+				]
+			],
+			[
+				76200,
+				[
+					[
+						"Play Animation",
+						"fly",
+						"dad"
+					]
+				]
+			],
+			[
+				85800,
+				[
+					[
+						"Play Animation",
+						"angry",
+						"bf"
+					],
+					[
+						"Play Animation",
+						"fly",
+						"dad"
+					]
+				]
+			],
+			[
+				95400,
+				[
+					[
+						"Play Animation",
+						"angry",
+						"bf"
+					],
+					[
+						"Play Animation",
+						"fly",
+						"dad"
+					]
+				]
+			],
+			[
+				105000,
+				[
+					[
+						"Play Animation",
+						"angry",
+						"bf"
+					],
+					[
+						"Play Animation",
+						"fly",
+						"dad"
+					]
+				]
+			],
+			[
+				124200,
+				[
+					[
+						"Play Animation",
+						"angry",
+						"bf"
+					],
+					[
+						"Play Animation",
+						"fly",
+						"birb"
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": null,
+		"validScore": false,
+		"gfVersion": "birb",
+		"bpm": 200,
+		"arrowSkin": null,
+		"needsVoices": true,
+		"song": "sea-shanty-2"
+	}
+}

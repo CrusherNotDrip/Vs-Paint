@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="BF DIES.png">
+	<!-- Created with Adobe Animate version 21.0.1.37179 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="bf sawed0000" x="0" y="0" width="367" height="418" frameX="-1" frameY="-8" frameWidth="368" frameHeight="426"/>
+	<SubTexture name="bf sawed0001" x="367" y="0" width="367" height="418" frameX="-1" frameY="-8" frameWidth="368" frameHeight="426"/>
+	<SubTexture name="bf sawed0002" x="734" y="0" width="356" height="426" frameX="-1" frameY="0" frameWidth="368" frameHeight="426"/>
+	<SubTexture name="bf sawed0003" x="1090" y="0" width="356" height="426" frameX="-1" frameY="0" frameWidth="368" frameHeight="426"/>
+	<SubTexture name="bf sawed0004" x="1446" y="0" width="332" height="259" frameX="0" frameY="-167" frameWidth="368" frameHeight="426"/>
+	<SubTexture name="bf sawed0005" x="0" y="426" width="332" height="253" frameX="0" frameY="-173" frameWidth="368" frameHeight="426"/>
+	<SubTexture name="bf sawed0006" x="332" y="426" width="332" height="249" frameX="0" frameY="-177" frameWidth="368" frameHeight="426"/>
+	<SubTexture name="bf sawed0007" x="332" y="426" width="332" height="249" frameX="0" frameY="-177" frameWidth="368" frameHeight="426"/>
+</TextureAtlas>

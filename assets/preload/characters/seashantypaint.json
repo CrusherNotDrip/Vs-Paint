@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				124,
+				-264
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "left"
+		},
+		{
+			"offsets": [
+				1,
+				-370
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "down"
+		},
+		{
+			"offsets": [
+				-5,
+				-130
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "up"
+		},
+		{
+			"offsets": [
+				10,
+				-250
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "idle"
+		},
+		{
+			"offsets": [
+				-80,
+				-273
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "right"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				-101
+			],
+			"anim": "angry",
+			"fps": 24,
+			"name": "angry",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/seashantypaint",
+	"position": [
+		-300,
+		490
+	],
+	"healthicon": "icon-paint",
+	"flip_x": true,
+	"healthbar_colors": [
+		235,
+		42,
+		206
+	],
+	"camera_position": [
+		-330,
+		-8
+	],
+	"sing_duration": 6.1,
+	"scale": 1.2
+}
