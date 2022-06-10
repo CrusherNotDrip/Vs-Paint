@@ -295,7 +295,7 @@ class TitleState extends MusicBeatState
 		ngSpr = new FlxSprite(0, FlxG.height * 0.52).loadGraphic(Paths.image('newgrounds_logo'));
 		add(ngSpr);
 		ngSpr.visible = false;
-		ngSpr.setGraphicSize(Std.int(ngSpr.width * 0.8));
+		ngSpr.setGraphicSize(Std.int(ngSpr.width * 2));
 		ngSpr.updateHitbox();
 		ngSpr.screenCenter(X);
 		ngSpr.antialiasing = ClientPrefs.globalAntialiasing;
@@ -455,11 +455,8 @@ class TitleState extends MusicBeatState
 				case 1:
 					createCoolText(['Vs Paint by'], 15);
 				case 3:
-					addMoreText('Thehairyblueberry', 15);
-					addMoreText('RespectRox', 15);
-					addMoreText('CrusherMods', 15);
-					addMoreText('Nova', 15);
-					addMoreText('& More (Check Credits!!!)', 15);
+					addMoreText('a lot of people', 15);
+					addMoreText('(Check Credits!!!)', 15);
 				case 4:
 					deleteCoolText();
 				case 5:

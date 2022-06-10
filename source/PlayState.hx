@@ -333,6 +333,18 @@ class PlayState extends MusicBeatState
 		if(SONG.stage == null || SONG.stage.length < 1) {
 			switch (songName)
 			{
+				case 'for-paints-sake' | 'little-rox':
+					curStage = 'paint';
+				case 'noteworthy':
+					curStage = 'notepad';
+				case 'command':
+					curStage = 'Matrix';
+				case 'for-paints-sake-ex':
+					curStage = 'windows';
+				case 'sea-shanty-2':
+					curStage = 'bedroom';
+				case 'ascii-cat':
+					curStage = 'PS';
 				default:
 					curStage = 'stage';
 			}
@@ -443,6 +455,11 @@ class PlayState extends MusicBeatState
 				windows.scrollFactor.set(0.7, 0.5);
 				windows.antialiasing = ClientPrefs.globalAntialiasing;
 				add(windows);
+			case 'PS':
+				var ps:FlxSprite = new FlxSprite(100, 58, Paths.image('PS'));
+				ps.scrollFactor.set(0.7, 0.5);
+				ps.antialiasing = ClientPrefs.globalAntialiasing;
+				add(ps);
 		}
 
 		switch(Paths.formatToSongPath(SONG.song))
@@ -1278,9 +1295,6 @@ class PlayState extends MusicBeatState
 							}
 						});
 						FlxG.sound.play(Paths.sound('intro2' + introSoundsSuffix), 0.6);
-						if(SONG.song.toLowerCase() == 'ascii-cat') {
-							startSong();
-						}
 					case 2:
 						countdownSet = new FlxSprite().loadGraphic(Paths.image(introAlts[1]));
 						countdownSet.scrollFactor.set();
@@ -1300,6 +1314,9 @@ class PlayState extends MusicBeatState
 							}
 						});
 						FlxG.sound.play(Paths.sound('intro1' + introSoundsSuffix), 0.6);
+						if(SONG.song.toLowerCase() == 'ascii-cat') {
+							startSong();
+						}
 					case 3:
 						countdownGo = new FlxSprite().loadGraphic(Paths.image(introAlts[2]));
 						countdownGo.scrollFactor.set();
@@ -2629,7 +2646,7 @@ class PlayState extends MusicBeatState
 				return;
 			}
 
-			if (isStoryMode)
+			if (isStoryMode == true)
 			{
 				campaignScore += songScore;
 				campaignMisses += songMisses;
@@ -2699,7 +2716,7 @@ class PlayState extends MusicBeatState
 					}
 				}
 			}
-			else
+			else if(isFreeplay == true) 
 			{
 				trace('WENT BACK TO FREEPLAY??');
 				cancelMusicFadeTween();
@@ -2707,6 +2724,17 @@ class PlayState extends MusicBeatState
 					CustomFadeTransition.nextCamera = null;
 				}
 				MusicBeatState.switchState(new FreeplayState());
+				FlxG.sound.playMusic(Paths.music('freakyMenu'));
+				changedDifficulty = false;
+			}
+			else if(isExtraSong == true) 
+			{
+				trace('WENT BACK TO EXTRA MENU??');
+				cancelMusicFadeTween();
+				if(FlxTransitionableState.skipNextTransIn) {
+					CustomFadeTransition.nextCamera = null;
+				}
+				MusicBeatState.switchState(new ExtrasState());
 				FlxG.sound.playMusic(Paths.music('freakyMenu'));
 				changedDifficulty = false;
 			}
