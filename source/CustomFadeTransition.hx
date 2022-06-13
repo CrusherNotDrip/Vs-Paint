@@ -35,17 +35,17 @@ class CustomFadeTransition extends MusicBeatSubstate {
 		add(pain);
 		
 		FlxTween.tween(pain, {alpha: 1}, 0.3, {
-				onComplete: function(twn:FlxTween) {
-					new FlxTimer().start(0.8, function(tmr:FlxTimer)
-					{
-						FlxTween.tween(pain, {alpha: 1}, 0.3, {
+		onComplete: function(twn:FlxTween) {
+			new FlxTimer().start(duration, function(tmr:FlxTimer)
+			{
+			   FlxTween.tween(pain, {alpha: 0}, 0.3, {
 						onComplete: function(twn:FlxTween) {
 							close();
 						},
-			ease: FlxEase.linear});
-					});
-				},
-			ease: FlxEase.linear});
+						ease: FlxEase.linear});
+			});
+		},
+		ease: FlxEase.linear});
 
 		if(nextCamera != null) {
 			pain.cameras = [nextCamera];
