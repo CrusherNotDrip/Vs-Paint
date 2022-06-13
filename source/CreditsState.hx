@@ -95,6 +95,9 @@ class CreditsState extends MusicBeatState
 			['TEKKNO',              'tek',              'Team Member',                                              'https://www.youtube.com/channel/UCZqwWFYQ0vckpccVAVknqVA', '330000'],
 			['popnen',              'popnen',           'He was just here LMFAO',                                   '', 'FF0000'], //TODO: FIND A SOCIAL MEDIA OF HIS THAT HE WOULD LIKE TO LINK
 			[''],
+			['Special Thanks for Vs Paint'],
+			['Hayfi',               'none',             'Me lik VS Paint, blueberi accept me into you are team pls\nFor dummies: Added cool shits like custom transition and healthbar percent!1!!', 'https://www.youtube.com/channel/UC602IgT2OauKy9KTSH7J2fQ', '588CE0'], 
+			[''],
 			['Mods Used'],
 			['Mid Fight Masses',    'ruv',              'Assets Used:\nRuv + Zavodila',                             'https://www.youtube.com/watch?v=-zqDzCT41l0', '978AA6'],
 			['Vs Shaggy',           'shaggy',           'Assets Used:\nShaggy',                                     'https://gamebanana.com/mods/284121',   '33724A'],

@@ -29,39 +29,25 @@ class CustomFadeTransition extends MusicBeatSubstate {
 		var width:Int = Std.int(FlxG.width / zoom);
 		var height:Int = Std.int(FlxG.height / zoom);
 
-		pain = new FlxSprite().loadGraphic('assets/paint/images/pain');
+		pain = new FlxSprite(0, 0).loadGraphic(Paths.image('pain'), false, width, height);
 		pain.scrollFactor.set();
+		pain.screenCenter();
 		pain.alpha = 0;
 		add(pain);
 		
-		FlxTween.tween(pain, {alpha: 1}, 0.3, {
-		onComplete: function(twn:FlxTween) {
+		FlxTween.tween(pain, {alpha: 1}, 0.3, { onComplete: function(twn:FlxTween) {
 			new FlxTimer().start(duration, function(tmr:FlxTimer)
-			{
-			   FlxTween.tween(pain, {alpha: 0}, 0.3, {
-						onComplete: function(twn:FlxTween) {
-							close();
-						},
-						ease: FlxEase.linear});
-			});
-		},
-		ease: FlxEase.linear});
+				{
+					if (finishCallback != null) {
+						finishCallback();
+					}
+					FlxTween.tween(pain, {alpha: 0}, 0.3, {ease: FlxEase.linear});
+				});
+		}, ease: FlxEase.linear});
 
 		if(nextCamera != null) {
 			pain.cameras = [nextCamera];
 		}
 		nextCamera = null;
-	}
-
-	override function update(elapsed:Float) {
-		super.update(elapsed);
-	}
-
-	override function destroy() {
-		if(leTween != null) {
-			finishCallback();
-			leTween.cancel();
-		}
-		super.destroy();
 	}
 }

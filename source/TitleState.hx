@@ -437,6 +437,8 @@ class TitleState extends MusicBeatState
 	{
 		super.beatHit();
 
+		FlxTween.tween(FlxG.camera, { zoom:1.050 }, 0.3, { type: FlxTween.BACKWARD, ease: FlxEase.quadOut });
+
 		if(logoBl != null) 
 			logoBl.animation.play('bump', true);
 
