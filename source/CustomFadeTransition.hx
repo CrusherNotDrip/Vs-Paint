@@ -29,7 +29,7 @@ class CustomFadeTransition extends MusicBeatSubstate {
 		var width:Int = Std.int(FlxG.width / zoom);
 		var height:Int = Std.int(FlxG.height / zoom);
 
-		pain = new FlxSprite().loadGraphic('assets/paint/pain');
+		pain = new FlxSprite().loadGraphic('assets/paint/images/pain');
 		pain.scrollFactor.set();
 		pain.alpha = 0;
 		add(pain);
