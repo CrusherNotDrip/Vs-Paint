@@ -14,4 +14,4 @@ class BSODState extends MusicBeatState {
     }
 }
 */
-//hayfi thought it would really dumb to make a cheap bsod (blue screen of death) state, of course it wont actually bsod your pc.
+//Hayfi thought it would be really dumb to make a cheap bsod (blue screen of death) state, of course it wont ACTUALLY bsod your pc.
