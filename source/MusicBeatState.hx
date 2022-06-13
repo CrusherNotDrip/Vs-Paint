@@ -28,13 +28,13 @@ class MusicBeatState extends FlxUIState
 		return PlayerSettings.player1.controls;
 
 	override function create() {
-		//var skip:Bool = FlxTransitionableState.skipNextTransOut;
+		var skip:Bool = FlxTransitionableState.skipNextTransOut;
 		super.create();
 
-		/*if(!skip) {
+		if(!skip) {
 			openSubState(new CustomFadeTransition(0.7, true));
 		}
-		FlxTransitionableState.skipNextTransOut = false;*/
+		FlxTransitionableState.skipNextTransOut = false;
 	}
 	
 	#if (VIDEOS_ALLOWED && windows)

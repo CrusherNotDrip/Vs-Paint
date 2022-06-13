@@ -96,7 +96,7 @@ class CreditsState extends MusicBeatState
 			['popnen',              'popnen',           'He was just here LMFAO',                                   '', 'FF0000'], //TODO: FIND A SOCIAL MEDIA OF HIS THAT HE WOULD LIKE TO LINK
 			[''],
 			['Special Thanks for Vs Paint'],
-			['Hayfi',               'none',             'Me lik VS Paint, blueberi accept me into you are team pls\nFor dummies: Added cool shits like custom transition and healthbar percent!1!!', 'https://www.youtube.com/channel/UC602IgT2OauKy9KTSH7J2fQ', '588CE0'], 
+			['Hayfi',               'none',             'Me lik VS Paint, blueberi accept me into you are team pls\nAdded cool shits like: Healthbar Percent!!!!', 'https://www.youtube.com/channel/UC602IgT2OauKy9KTSH7J2fQ', '588CE0'], 
 			[''],
 			['Mods Used'],
 			['Mid Fight Masses',    'ruv',              'Assets Used:\nRuv + Zavodila',                             'https://www.youtube.com/watch?v=-zqDzCT41l0', '978AA6'],
