@@ -84,7 +84,7 @@ class TitleState extends MusicBeatState
 		#if CHECK_FOR_UPDATES
 		if(!closedState) {
 			trace('checking for update');
-			var http = new haxe.Http("https://raw.githubusercontent.com/CrusherMods/Vs-Paint-Overhaul-Sauce/main/gitVersion.txt");
+			var http = new haxe.Http("https://raw.githubusercontent.com/CrusherNotDrip/Vs-Paint-Overhaul-Sauce/main/gitVersion.txt");
 			
 			http.onData = function (data:String)
 			{
