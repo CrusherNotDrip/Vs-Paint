@@ -31,7 +31,7 @@ class OutdatedState extends MusicBeatState
 			\n
 			Thank you for playing this mod!",
 			32);
-		warnText.setFormat("VCR OSD Mono", 32, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+		warnText.setFormat(Paths.font("Marker.ttf"), 32, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		warnText.borderSize = 1.25;
 		warnText.screenCenter(Y);
 		add(warnText);

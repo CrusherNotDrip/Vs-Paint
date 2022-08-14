@@ -1,21 +1,33 @@
+19
+ascii
+bad mod
+bf gun
 bf
+bfP
+bf-pixel
+bf-pixel-opponent
+BFPOGUN
+bfS
+bfS2
+birb
 dad
 gf
-spooky
-pico
-mom
-mom-car
-bf-car
-gf-car
-parents-christmas
-monster-christmas
-bf-christmas
-gf-christmas
-monster
-bf-pixel
 gf-pixel
-senpai
-senpai-angry
+jake
+lil rox
+lil roxA
+lil roxP
+paint
+paintangry
+paintEX
+paintmlg
+pedo
+QT
+ruv
+seashantypaint
+shaggy
+shitting
 spirit
-bf-pixel-opponent
-pico-player
+super bf
+tiky
+what

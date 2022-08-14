@@ -82,45 +82,47 @@ class CreditsState extends MusicBeatState
 
 		var pisspoop:Array<Array<String>> = [ //Name - Icon name - Description - Link - BG Color
 			#if html5
-			['Play The Mod!',       'paint',            'Play The Vs Paint Mod on your Desktop here!',              'https://gamebanana.com/mods/351288',   'FFFFFF'], //IF YOU DELETE THIS LINE then you are sexually attracted to 1 year old boys!!!!!
+			['Play The Mod!',       'paint',            'Play The Vs Paint Mod on your Desktop here!',              	'https://gamebanana.com/mods/351288',   'FFFFFF'], //IF YOU DELETE THIS LINE then you are sexually attracted to 1 year old boys!!!!!
 			[''],
 			#end
 			['Vs Paint Team'],
-			['Thehairyblueberry',   'blue',             'Director + Composer + Charting + Programming',             'https://www.twitch.tv/thehairyblueberry', '000099'],
-			['RespectRox',          'respectroxYT',     'Artist + Charting',                                        'https://www.youtube.com/user/dora26135', 'FF00FF'],
-			['CrusherMods',         'crusher',          'Programmer',                                               'https://twitter.com/CrusherNotDrip',   '00FFFF'],
-			['Nova',                'nova',             'Programmer',                                               'https://twitter.com/NovaTheGurl',      '009999'],
-			['Defi',                'french people dont exist', 'Playtester',                                       'https://www.youtube.com/channel/UCa_aAreImGkb5WzjkPxeAoA', '0000CC'], //TODO: FIND A SOCIAL MEDIA OF HIS THAT HE WOULD LIKE TO LINK || EDIT: IM BLIND IT WAS IN THE DISCORD LOL
-			['King Displays Stupidity', 'kds',          'Team Member',                                              'https://www.youtube.com/channel/UCY2ACqSaLqAJD78meW1i5fw', '649B00'],
-			['TEKKNO',              'tek',              'Team Member',                                              'https://www.youtube.com/channel/UCZqwWFYQ0vckpccVAVknqVA', '330000'],
-			['popnen',              'popnen',           'He was just here LMFAO',                                   '', 'FF0000'], //TODO: FIND A SOCIAL MEDIA OF HIS THAT HE WOULD LIKE TO LINK
+			['Thehairyblueberry',   'blue',             'Director + Composer + Charting + Programming',             	'https://www.twitch.tv/thehairyblueberry', '000099'],
+			['RespectRox',          'respectroxYT',     'Artist + Charting',                                        	'https://www.youtube.com/user/dora26135', 'FF00FF'],
+			['CrusherMods',         'crusher',          'Programmer',                                               	'https://twitter.com/CrusherNotDrip',   '00FFFF'],
+			['Nova',                'nova',             'Programmer',                                               	'https://twitter.com/NovaTheGurl',      '009999'],
+			['Defi',                'french people dont exist', 'Playtester',                                       	'https://www.youtube.com/channel/UCa_aAreImGkb5WzjkPxeAoA', '0000CC'], //TODO: FIND A SOCIAL MEDIA OF HIS THAT HE WOULD LIKE TO LINK || EDIT: IM BLIND IT WAS IN THE DISCORD LOL
+			['King Displays Stupidity', 'kds',          'Team Member',                                              	'https://www.youtube.com/channel/UCY2ACqSaLqAJD78meW1i5fw', '649B00'],
+			['TEKKNO',              'tek',              'Team Member',                                              	'https://www.youtube.com/channel/UCZqwWFYQ0vckpccVAVknqVA', '330000'],
+			['popnen',              'popnen',           'He was just here LMFAO',                                   	'', 									'FF0000'], //TODO: FIND A SOCIAL MEDIA OF HIS THAT HE WOULD LIKE TO LINK
 			[''],
 			['Mods Used'],
-			['Mid Fight Masses',    'ruv',              'Assets Used:\nRuv + Zavodila',                             'https://www.youtube.com/watch?v=-zqDzCT41l0', '978AA6'],
-			['Vs Shaggy',           'shaggy',           'Assets Used:\nShaggy',                                     'https://gamebanana.com/mods/284121',   '33724A'],
-			['Dave and Bambi',      'bambi',            'Assets Used:\nBambi',                                      'https://gamebanana.com/mods/43201',    '0CB500'],
-			['Vs Sonic.exe',        'fleetway',         'Assets Used:\nSuper BF',                                   'https://gamebanana.com/mods/316022',   'FED100'],
+			['Mid Fight Masses',    'ruv',              'Assets Used:\nRuv + Zavodila',                             	'https://www.youtube.com/watch?v=-zqDzCT41l0', '978AA6'],
+			['Vs Shaggy',           'shaggy',           'Assets Used:\nShaggy',                                     	'https://gamebanana.com/mods/284121',   '33724A'],
+			['Dave and Bambi',      'bambi',            'Assets Used:\nBambi',                                      	'https://gamebanana.com/mods/43201',    '0CB500'],
+			['Vs Sonic.exe',        'fleetway',         'Assets Used:\nSuper BF',                                   	'https://gamebanana.com/mods/316022',   'FED100'],
 			[''],
 			['Psych Engine Team'],
-			['Shadow Mario',		'shadowmario',		'Main Programmer of Psych Engine',							'https://twitter.com/Shadow_Mario_',	'444444'],
-			['RiverOaken',			'riveroaken',		'Main Artist/Animator of Psych Engine',						'https://twitter.com/RiverOaken',		'C30085'],
-			['shubs',				'shubs',			'Additional Programmer of Psych Engine',					'https://twitter.com/yoshubs',			'279ADC'],
+			['Shadow Mario',		'shadowmario',		'Main Programmer of Psych Engine',								'https://twitter.com/Shadow_Mario_',	'444444'],
+			['RiverOaken',			'river',			'Main Artist/Animator of Psych Engine',							'https://twitter.com/RiverOaken',		'B42F71'],
+			['shubs',				'shubs',			'Additional Programmer of Psych Engine',						'https://twitter.com/yoshubs',			'5E99DF'],
 			[''],
 			['Former Engine Members'],
-			['bb-panzu',			'bb-panzu',			'Ex-Programmer of Psych Engine',							'https://twitter.com/bbsub3',			'389A58'],
+			['bb-panzu',			'bb',				'Ex-Programmer of Psych Engine',								'https://twitter.com/bbsub3',			'3E813A'],
 			[''],
 			['Engine Contributors'],
-			['iFlicky',				'iflicky',			'Composer of Psync and Tea Time\nMade the Dialogue Sounds',	'https://twitter.com/flicky_i',			'AA32FE'],
-			['SqirraRNG',			'gedehari',			'Chart Editor\'s Sound Waveform base',						'https://twitter.com/gedehari',			'FF9300'],
-			['PolybiusProxy',		'polybiusproxy',	'.MP4 Video Loader Extension',								'https://twitter.com/polybiusproxy',	'FFEAA6'],
-			['Keoiki',				'keoiki',			'Note Splash Animations',									'https://twitter.com/Keoiki_',			'FFFFFF'],
-			['Smokey',				'smokey',			'Spritemap Texture Support',								'https://twitter.com/Smokey_5_',		'4D5DBD'],
+			['iFlicky',				'flicky',			'Composer of Psync and Tea Time\nMade the Dialogue Sounds',		'https://twitter.com/flicky_i',			'9E29CF'],
+			['SqirraRNG',			'sqirra',			'Crash Handler and Base code for\nChart Editor\'s Waveform',	'https://twitter.com/gedehari',			'E1843A'],
+			['PolybiusProxy',		'proxy',			'.MP4 Video Loader Library (hxCodec)',							'https://twitter.com/polybiusproxy',	'DCD294'],
+			['KadeDev',				'kade',				'Fixed some cool stuff on Chart Editor\nand other PRs',			'https://twitter.com/kade0912',			'64A250'],
+			['Keoiki',				'keoiki',			'Note Splash Animations',										'https://twitter.com/Keoiki_',			'D2D2D2'],
+			['Nebula the Zorua',	'nebula',			'LUA JIT Fork and some Lua reworks',							'https://twitter.com/Nebula_Zorua',		'7D40B2'],
+			['Smokey',				'smokey',			'Sprite Atlas Support',											'https://twitter.com/Smokey_5_',		'483D92'],
 			[''],
 			["Funkin' Crew"],
-			['ninjamuffin99',		'ninjamuffin99',	"Programmer of Friday Night Funkin'",						'https://twitter.com/ninja_muffin99',	'F73838'],
-			['PhantomArcade',		'phantomarcade',	"Animator of Friday Night Funkin'",							'https://twitter.com/PhantomArcade3K',	'FFBB1B'],
-			['evilsk8r',			'evilsk8r',			"Artist of Friday Night Funkin'",							'https://twitter.com/evilsk8r',			'53E52C'],
-			['kawaisprite',			'kawaisprite',		"Composer of Friday Night Funkin'",							'https://twitter.com/kawaisprite',		'6475F3']
+			['ninjamuffin99',		'ninjamuffin99',	"Programmer of Friday Night Funkin'",							'https://twitter.com/ninja_muffin99',	'CF2D2D'],
+			['PhantomArcade',		'phantomarcade',	"Animator of Friday Night Funkin'",								'https://twitter.com/PhantomArcade3K',	'FADC45'],
+			['evilsk8r',			'evilsk8r',			"Artist of Friday Night Funkin'",								'https://twitter.com/evilsk8r',			'5ABD4B'],
+			['kawaisprite',			'kawaisprite',		"Composer of Friday Night Funkin'",								'https://twitter.com/kawaisprite',		'378FC7']
 		];
 		
 		for(i in pisspoop){
@@ -170,7 +172,7 @@ class CreditsState extends MusicBeatState
 		add(descBox);
 
 		descText = new FlxText(50, FlxG.height + offsetThing - 25, 1180, "", 32);
-		descText.setFormat(Paths.font("vcr.ttf"), 32, FlxColor.WHITE, CENTER/*, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK*/);
+		descText.setFormat(Paths.font("Marker.ttf"), 32, FlxColor.WHITE, CENTER/*, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK*/);
 		descText.scrollFactor.set();
 		//descText.borderSize = 2.4;
 		descBox.sprTracker = descText;
@@ -225,7 +227,7 @@ class CreditsState extends MusicBeatState
 				}
 			}
 
-			if(controls.ACCEPT) {
+			if(controls.ACCEPT && (creditsStuff[curSelected][3] == null || creditsStuff[curSelected][3].length > 4)) {
 				CoolUtil.browserLoad(creditsStuff[curSelected][3]);
 			}
 			if (controls.BACK)

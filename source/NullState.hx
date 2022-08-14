@@ -23,7 +23,7 @@ class NullState extends MusicBeatState
 		bg.screenCenter();
 
         notRealTxt = new FlxText(0, 0, FlxG.width, "THIS STATE DOESN'T EXIST! PRESS ESC TO GO BACK TO THE MAIN MENU", 48);
-		notRealTxt.setFormat(Paths.font("vcr.ttf"), 32, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+		notRealTxt.setFormat(Paths.font("Marker.ttf"), 32, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		notRealTxt.scrollFactor.set();
 		notRealTxt.borderSize = 2;
 		add(notRealTxt);

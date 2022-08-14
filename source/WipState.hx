@@ -23,7 +23,7 @@ class WipState extends MusicBeatState
 		bg.screenCenter();
 
         notFinishedTxt = new FlxText(0, 0, FlxG.width, "THIS MENU ISN'T DONE YET! PRESS ESC TO GO BACK TO THE MAIN MENU", 48);
-		notFinishedTxt.setFormat(Paths.font("vcr.ttf"), 32, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+		notFinishedTxt.setFormat(Paths.font("Marker.ttf"), 32, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		notFinishedTxt.scrollFactor.set();
 		notFinishedTxt.borderSize = 2;
 		add(notFinishedTxt);

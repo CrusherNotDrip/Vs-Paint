@@ -5420,7 +5420,6 @@
 		"player2": "ascii",
 		"gfVersion": "gf",
 		"events": [],
-		"player3": null,
 		"song": "ascii-cat",
 		"needsVoices": true,
 		"sections": 0,
