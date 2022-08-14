@@ -372,18 +372,18 @@
 	<SubTexture name="boyfriend dodge0012" x="3391" y="1726" width="380" height="403" frameX="0" frameY="-1" frameWidth="380" frameHeight="404"/>
 	<SubTexture name="boyfriend dodge0013" x="2" y="2412" width="380" height="403" frameX="0" frameY="-1" frameWidth="380" frameHeight="404"/>
 	<SubTexture name="boyfriend dodge0014" x="3009" y="1726" width="380" height="403" frameX="0" frameY="-1" frameWidth="380" frameHeight="404"/>
-	<SubTexture name="gun ani0000" x="382" y="2410" width="406" height="392" frameX="-19" frameY="-20" frameWidth="429" frameHeight="412"/>
-	<SubTexture name="gun ani0001" x="382" y="2410" width="406" height="392" frameX="-19" frameY="-20" frameWidth="429" frameHeight="412"/>
-	<SubTexture name="gun ani0002" x="787" y="2410" width="376" height="393" frameX="-50" frameY="-19" frameWidth="429" frameHeight="412"/>
-	<SubTexture name="gun ani0003" x="1164" y="2288" width="381" height="393" frameX="-45" frameY="-19" frameWidth="429" frameHeight="412"/>
-	<SubTexture name="gun ani0004" x="1545" y="2288" width="378" height="398" frameX="-48" frameY="-14" frameWidth="429" frameHeight="412"/>
-	<SubTexture name="gun ani0005" x="1545" y="2288" width="378" height="398" frameX="-48" frameY="-14" frameWidth="429" frameHeight="412"/>
-	<SubTexture name="gun ani0006" x="1923" y="2288" width="396" height="411" frameX="-33" frameY="-1" frameWidth="429" frameHeight="412"/>
-	<SubTexture name="gun ani0007" x="1923" y="2288" width="396" height="411" frameX="-33" frameY="-1" frameWidth="429" frameHeight="412"/>
-	<SubTexture name="gun ani0008" x="2319" y="2288" width="428" height="412" frameX="0" frameY="0" frameWidth="429" frameHeight="412"/>
-	<SubTexture name="gun ani0009" x="2319" y="2288" width="428" height="412" frameX="0" frameY="0" frameWidth="429" frameHeight="412"/>
-	<SubTexture name="gun ani0010" x="2319" y="2288" width="428" height="412" frameX="0" frameY="0" frameWidth="429" frameHeight="412"/>
-	<SubTexture name="gun ani0011" x="2319" y="2288" width="428" height="412" frameX="0" frameY="0" frameWidth="429" frameHeight="412"/>
-	<SubTexture name="gun ani0012" x="2319" y="2288" width="428" height="412" frameX="0" frameY="0" frameWidth="429" frameHeight="412"/>
-	<SubTexture name="gun ani0013" x="2319" y="2288" width="428" height="412" frameX="0" frameY="0" frameWidth="429" frameHeight="412"/>
+	<SubTexture name="gun ani0000" x="382" y="2411" width="405" height="392" frameX="-19" frameY="-20" frameWidth="429" frameHeight="412"/>
+	<SubTexture name="gun ani0001" x="382" y="2411" width="405" height="392" frameX="-19" frameY="-20" frameWidth="429" frameHeight="412"/>
+	<SubTexture name="gun ani0002" x="788" y="2411" width="376" height="394" frameX="-50" frameY="-19" frameWidth="429" frameHeight="412"/>
+	<SubTexture name="gun ani0003" x="1164" y="2411" width="381" height="394" frameX="-45" frameY="-19" frameWidth="429" frameHeight="412"/>
+	<SubTexture name="gun ani0004" x="1545" y="2411" width="378" height="399" frameX="-48" frameY="-14" frameWidth="429" frameHeight="412"/>
+	<SubTexture name="gun ani0005" x="1545" y="2411" width="378" height="399" frameX="-48" frameY="-14" frameWidth="429" frameHeight="412"/>
+	<SubTexture name="gun ani0006" x="1923" y="2411" width="396" height="412" frameX="-33" frameY="-1" frameWidth="429" frameHeight="412"/>
+	<SubTexture name="gun ani0007" x="1923" y="2411" width="396" height="412" frameX="-33" frameY="-1" frameWidth="429" frameHeight="412"/>
+	<SubTexture name="gun ani0008" x="2319" y="2410" width="428" height="413" frameX="0" frameY="0" frameWidth="429" frameHeight="412"/>
+	<SubTexture name="gun ani0009" x="2319" y="2410" width="428" height="413" frameX="0" frameY="0" frameWidth="429" frameHeight="412"/>
+	<SubTexture name="gun ani0010" x="2319" y="2410" width="428" height="413" frameX="0" frameY="0" frameWidth="429" frameHeight="412"/>
+	<SubTexture name="gun ani0011" x="2319" y="2410" width="428" height="413" frameX="0" frameY="0" frameWidth="429" frameHeight="412"/>
+	<SubTexture name="gun ani0012" x="2319" y="2410" width="428" height="413" frameX="0" frameY="0" frameWidth="429" frameHeight="412"/>
+	<SubTexture name="gun ani0013" x="2319" y="2410" width="428" height="413" frameX="0" frameY="0" frameWidth="429" frameHeight="412"/>
 </TextureAtlas>
