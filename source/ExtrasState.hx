@@ -1,4 +1,3 @@
-//This is a copy of FreeplayState but I changed shit a lil
 package;
 
 #if desktop
@@ -18,7 +17,7 @@ import flixel.tweens.FlxTween;
 import lime.utils.Assets;
 import flixel.system.FlxSound;
 import openfl.utils.Assets as OpenFlAssets;
-import ExtrasData;
+import WeekData;
 #if MODS_ALLOWED
 import sys.FileSystem;
 #end
@@ -27,7 +26,7 @@ using StringTools;
 
 class ExtrasState extends MusicBeatState
 {
-	var songs:Array<SongMetadataExtras> = [];
+	var songs:Array<ExtrasSongMetadata> = [];
 
 	var selector:FlxText;
 	private static var curSelected:Int = 0;
@@ -58,19 +57,20 @@ class ExtrasState extends MusicBeatState
 		
 		persistentUpdate = true;
 		PlayState.isStoryMode = false;
-        PlayState.isFreeplay = false;
-        PlayState.isExtraSong = true;
-		ExtrasData.reloadExtraFiles(false);
+		PlayState.isFreeplay = false;
+		PlayState.isExtraSong = true;
+		WeekData.pathToCheck = 'extras';
+		WeekData.reloadWeekFiles(false);
 
 		#if desktop
 		// Updating Discord Rich Presence
 		DiscordClient.changePresence("In the Menus", null);
 		#end
 
-		for (i in 0...ExtrasData.weeksList.length) {
-			if(weekIsLocked(ExtrasData.weeksList[i])) continue;
+		for (i in 0...WeekData.weeksList.length) {
+			if(weekIsLocked(WeekData.weeksList[i])) continue;
 
-			var leWeek:ExtrasData = ExtrasData.weeksLoaded.get(ExtrasData.weeksList[i]);
+			var leWeek:WeekData = WeekData.weeksLoaded.get(WeekData.weeksList[i]);
 			var leSongs:Array<String> = [];
 			var leChars:Array<String> = [];
 
@@ -80,7 +80,7 @@ class ExtrasState extends MusicBeatState
 				leChars.push(leWeek.songs[j][1]);
 			}
 
-			ExtrasData.setDirectoryFromWeek(leWeek);
+			WeekData.setDirectoryFromWeek(leWeek);
 			for (song in leWeek.songs)
 			{
 				var colors:Array<Int> = song[2];
@@ -91,7 +91,7 @@ class ExtrasState extends MusicBeatState
 				addSong(song[0], i, song[1], FlxColor.fromRGB(colors[0], colors[1], colors[2]));
 			}
 		}
-		ExtrasData.loadTheFirstEnabledMod();
+		WeekData.loadTheFirstEnabledMod();
 
 		/*		//KIND OF BROKEN NOW AND ALSO PRETTY USELESS//
 
@@ -114,23 +114,17 @@ class ExtrasState extends MusicBeatState
 
 		for (i in 0...songs.length)
 		{
-			var songText:Alphabet = new Alphabet(0, (70 * i) + 30, songs[i].songName, true, false);
+			var songText:Alphabet = new Alphabet(90, 320, songs[i].songName, true);
 			songText.isMenuItem = true;
-			songText.targetY = i;
+			songText.targetY = i - curSelected;
 			grpSongs.add(songText);
 
-			if (songText.width > 980)
+			var maxWidth = 980;
+			if (songText.width > maxWidth)
 			{
-				var textScale:Float = 980 / songText.width;
-				songText.scale.x = textScale;
-				for (letter in songText.lettersArray)
-				{
-					letter.x *= textScale;
-					letter.offset.x *= textScale;
-				}
-				//songText.updateHitbox();
-				//trace(songs[i].songName + ' new scale: ' + textScale);
+				songText.scaleX = maxWidth / songText.width;
 			}
+			songText.snapToPosition();
 
 			Paths.currentModDirectory = songs[i].folder;
 			var icon:HealthIcon = new HealthIcon(songs[i].songCharacter);
@@ -144,7 +138,7 @@ class ExtrasState extends MusicBeatState
 			// DONT PUT X IN THE FIRST PARAMETER OF new ALPHABET() !!
 			// songText.screenCenter(X);
 		}
-		ExtrasData.setDirectoryFromWeek();
+		WeekData.setDirectoryFromWeek();
 
 		scoreText = new FlxText(FlxG.width * 0.7, 5, 0, "", 32);
 		scoreText.setFormat(Paths.font("Marker.ttf"), 32, FlxColor.WHITE, RIGHT);
@@ -217,11 +211,11 @@ class ExtrasState extends MusicBeatState
 
 	public function addSong(songName:String, weekNum:Int, songCharacter:String, color:Int)
 	{
-		songs.push(new SongMetadataExtras(songName, weekNum, songCharacter, color));
+		songs.push(new ExtrasSongMetadata(songName, weekNum, songCharacter, color));
 	}
 
 	function weekIsLocked(name:String):Bool {
-		var leWeek:ExtrasData = ExtrasData.weeksLoaded.get(name);
+		var leWeek:WeekData = WeekData.weeksLoaded.get(name);
 		return (!leWeek.startUnlocked && leWeek.weekBefore.length > 0 && (!StoryMenuState.weekCompleted.exists(leWeek.weekBefore) || !StoryMenuState.weekCompleted.get(leWeek.weekBefore)));
 	}
 
@@ -378,11 +372,11 @@ class ExtrasState extends MusicBeatState
 
 			PlayState.SONG = Song.loadFromJson(poop, songLowercase);
 			PlayState.isStoryMode = false;
-            PlayState.isFreeplay = false;
-            PlayState.isExtraSong = true;
+			PlayState.isFreeplay = false;
+			PlayState.isExtraSong = true;
 			PlayState.storyDifficulty = curDifficulty;
 
-			trace('CURRENT WEEK: ' + ExtrasData.getExtraFileName());
+			trace('CURRENT WEEK: ' + WeekData.getWeekFileName());
 			if(colorTween != null) {
 				colorTween.cancel();
 			}
@@ -494,7 +488,7 @@ class ExtrasState extends MusicBeatState
 		PlayState.storyWeek = songs[curSelected].week;
 
 		CoolUtil.difficulties = CoolUtil.defaultDifficulties.copy();
-		var diffStr:String = ExtrasData.getCurrentWeek().difficulties;
+		var diffStr:String = WeekData.getCurrentWeek().difficulties;
 		if(diffStr != null) diffStr = diffStr.trim(); //Fuck you HTML5
 
 		if(diffStr != null && diffStr.length > 0)
@@ -544,7 +538,7 @@ class ExtrasState extends MusicBeatState
 	}
 }
 
-class SongMetadataExtras
+class ExtrasSongMetadata
 {
 	public var songName:String = "";
 	public var week:Int = 0;
